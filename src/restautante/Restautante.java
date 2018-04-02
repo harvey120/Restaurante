@@ -5,6 +5,8 @@
  */
 package restautante;
 
+import com.restaurante.vista.frmLogin;
+
 /**
  *
  * @author Harvey Herrera
@@ -16,6 +18,10 @@ public class Restautante {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        frmLogin vistalogin = new frmLogin();
+        vistalogin.setVisible(true);
+        vistalogin.setSize(580, 515);
+        vistalogin.setLocationRelativeTo(null);
     }
     
 }
